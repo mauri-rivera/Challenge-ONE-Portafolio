@@ -4,10 +4,13 @@ body{
 
 header, .presentacion, .skill, .hobby{
     background: #F5F5F5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header, .presentacion, .acerca, .skill, .hobby{
-    padding: 32px 0;
+    padding: 2rem 0;
 }
 
 .menu, .div-presentacion, .div-acerca, .div-skill, .div-hobby{
@@ -16,7 +19,7 @@ header, .presentacion, .acerca, .skill, .hobby{
 }
 
 .menu, .div-presentacion{
-    margin: -5px 0 -20px 152px;
+    margin: -0.264% 0 -1.057% 12.346%;
 }
 
 h1{
@@ -28,23 +31,24 @@ h1{
     padding-left: 1%;
     display: flex;
     align-items: center;
-    font-size: 16px;
+}
+
+header .menu nav ul{
+    display: flex;
 }
 
 nav{
     position: relative;
     padding-left: 44%;
-    top: -18px;
+    top: -1.125rem;
 }
 
 nav li{
-    display: inline;
-    margin: 0 0 0 16px;  
+    margin: 0 0 0 1rem;  
 }
 
 nav a{
     color: #464646;
-    font-size: 16px;
     text-decoration: none;
 }
 
@@ -112,7 +116,7 @@ nav a:hover{
 }
 
 .div-acerca, .div-skill, .div-hobby{
-    margin: 32px 0 32px 152px; 
+    margin: 2rem 0 2rem 12.346%; 
 }
 
 .div-skill, .div-hobby{
@@ -136,7 +140,6 @@ nav a:hover{
 .parrafo-acerca{
     font-weight: 400;
     margin-top: 22px;
-    font-size: 16px;
     line-height: 19px;
 }
 
