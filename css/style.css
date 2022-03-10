@@ -4,10 +4,13 @@ body{
 
 header, .presentacion, .skill, .hobby{
     background: #F5F5F5;
+}
+
+header, .presentacion, .acerca, .skill, .hobby{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+} 
 
 header, .presentacion, .acerca, .skill, .hobby{
     padding: 2rem 0;
@@ -19,7 +22,7 @@ header, .presentacion, .acerca, .skill, .hobby{
 }
 
 .menu, .div-presentacion{
-    margin: -0.264% 0 -1.057% 12.346%;
+    margin: -0.3125rem 0 -1.25rem 12.346%;
 }
 
 h1{
