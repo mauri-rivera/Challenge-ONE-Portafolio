@@ -12,7 +12,7 @@
     border-radius: 0.625rem
 }
 
-.skill-bloque .skill-imagen, .hobby-bloque .hobby-imagen{
+.skill-bloque .skill-icono, .hobby-bloque .hobby-icono{
     width: 2rem;
     bottom: 19%;
 }
@@ -29,11 +29,11 @@
     border: 2px solid #EAF2FD;
 }
 
-.skill-bloque s.skill-item:hover .skill-imagen, .hobby-bloque .hobby-item:hover .hobby-imagen{
+.skill-bloque s.skill-item:hover .skill-icono, .hobby-bloque .hobby-item:hover .hobby-icono{
     width: 2.1875rem;
 }
 
-.skill-bloque .skill-item:active .skill-imagen, .hobby-bloque .hobby-item:active .hobby-imagen{
+.skill-bloque .skill-item:active .skill-icono, .hobby-bloque .hobby-item:active .hobby-icono{
     width: 2rem;
 }
 
@@ -50,7 +50,7 @@
     bottom: 8%;
 }
 
-.skill-bloque .skill-imagen, .skill-nombre, .hobby-bloque .hobby-imagen, .hobby-nombre{
+.skill-bloque .skill-icono, .skill-nombre, .hobby-bloque .hobby-icono, .hobby-nombre{
     margin-left: 0.5%;
     position: absolute;
 }
