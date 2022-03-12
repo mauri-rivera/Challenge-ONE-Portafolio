@@ -1,0 +1,42 @@
+.menu-titulo{
+    display: flex;
+}
+
+.menu-logo{
+    font-weight: bold;
+    padding-left: 1%;
+    display: flex;
+    align-items: center;
+}
+
+.menu .menu-bloque .menu-catalogo .menu-lista{
+    display: inline-flex;
+}
+
+.menu-catalogo{
+    position: relative;
+    padding-left: 37%;
+    top: -1.125rem;
+}
+
+.menu-catalogo .menu-item{
+    margin: 0 0 0 2rem;  
+}
+
+.menu-catalogo .menu-link{
+    color: #464646;
+    text-decoration: none;
+}
+
+.menu-catalogo .menu-link:hover{
+    color: #6D5423;
+    text-decoration: underline;
+}
+
+.menu-item{
+    font-weight: 500;
+}
+
+.menu-item:last-child{
+    font-weight: bold;
+}

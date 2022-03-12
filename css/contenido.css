@@ -1,0 +1,40 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.menu, .presentacion, .skill, .hobby{
+    background: #F5F5F5;
+}
+
+.menu, .presentacion, .acerca, .skill, .hobby{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+.menu, .presentacion, .acerca, .skill, .hobby{
+    padding: 2rem 0;
+}
+
+.menu-bloque, .presentacion-bloque, .acerca-bloque, .skill-bloque, .hobby-bloque{
+    width: 1136px;
+    position: relative;
+}
+
+.menu-bloque, .presentacion-bloque{
+    margin: -0.3125rem 0 -1.25rem 12.346%;
+}
+
+.acerca-bloque, .skill-bloque, .hobby-bloque{
+    margin: 2rem 0 2rem 12.346%; 
+}
+
+.skill-bloque, .hobby-bloque{
+    text-align: center;
+}
+
+.acerca-titulo, .skill-titulo, .hobby-titulo{
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 2.375rem;
+}

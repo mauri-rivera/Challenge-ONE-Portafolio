@@ -1,0 +1,56 @@
+.skill-titulo, .hobby-titulo{
+    margin-bottom: 2.875rem;
+}
+
+.skill-item, .hobby-item{
+    width: 9.125rem;
+    height: 9rem;
+    padding: 0.8125rem;
+    margin-right: 0.8125rem;
+    display: inline-flex;
+    background-color: #FFFFFF;
+    border-radius: 0.625rem
+}
+
+.skill-bloque .skill-imagen, .hobby-bloque .hobby-imagen{
+    width: 2rem;
+    bottom: 19%;
+}
+
+.skill-bloque .skill-item:hover, .hobby-bloque .hobby-item:hover{
+    width: calc(9.125rem * 1.01);
+    height: calc(9rem * 1.01);
+    border: 2px solid #6D5423;
+}
+
+.skill-bloque .skill-item:active, .hobby-bloque .hobby-item:active{
+    width: 9.125rem;
+    height: 9rem;
+    border: 2px solid #EAF2FD;
+}
+
+.skill-bloque s.skill-item:hover .skill-imagen, .hobby-bloque .hobby-item:hover .hobby-imagen{
+    width: 2.1875rem;
+}
+
+.skill-bloque .skill-item:active .skill-imagen, .hobby-bloque .hobby-item:active .hobby-imagen{
+    width: 2rem;
+}
+
+.skill-bloque .skill-item:hover .skill-nombre, .hobby-bloque .hobby-item:hover .hobby-nombre{
+    font-size: 1.1875rem;
+}
+
+.skill-bloque .skill-item:active .skill-nombre, .hobby-bloque .hobby-item:active .hobby-nombre{
+    font-size: 1rem;
+}
+
+.skill-nombre, .hobby-nombre{
+    font-weight: bold;
+    bottom: 8%;
+}
+
+.skill-bloque .skill-imagen, .skill-nombre, .hobby-bloque .hobby-imagen, .hobby-nombre{
+    margin-left: 0.5%;
+    position: absolute;
+}
