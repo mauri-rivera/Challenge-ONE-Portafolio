@@ -1,0 +1,14 @@
+.menu{
+    background: #F5F5F5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.menu .menu__bloque .menu__catalogo .menu__lista{
+    display: inline-flex;
+}
+
+
+

@@ -1,0 +1,17 @@
+.presentacion__menu .presentacion__item{
+    display: inline-flex;
+    font-weight: 500;
+    align-items: flex-end;
+    margin: 0 2.25rem 2rem 0;
+}
+
+.presentacion__menu .presentacion__link{
+    text-decoration: none;
+    color: #464646;
+    line-height: 1.1875rem;
+}
+
+.presentacion__menu .presentacion__link:hover{
+    color: #6D5423;
+    text-decoration: underline;
+}

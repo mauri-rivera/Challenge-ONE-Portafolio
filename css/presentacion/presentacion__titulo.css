@@ -1,0 +1,9 @@
+.presentacion__titulo{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 3.125rem;
+    font-weight: bold;
+    line-height: 3.8125rem;
+    margin-top: 1%;
+    width: 66%;
+}

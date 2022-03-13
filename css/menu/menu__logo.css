@@ -1,0 +1,6 @@
+.menu__logo{
+    font-weight: bold;
+    padding-left: 1%;
+    display: flex;
+    align-items: center;
+}

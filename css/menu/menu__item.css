@@ -1,0 +1,7 @@
+.menu__item{
+    font-weight: 500;
+}
+
+.menu__item:last-child{
+    font-weight: bold;
+}

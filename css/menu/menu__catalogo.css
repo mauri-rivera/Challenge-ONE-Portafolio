@@ -1,0 +1,19 @@
+.menu__catalogo{
+    position: relative;
+    padding-left: 37%;
+    top: -1.125rem;
+}
+
+.menu__catalogo .menu__item{
+    margin: 0 0 0 2rem;  
+}
+
+.menu__catalogo .menu__link{
+    color: #464646;
+    text-decoration: none;
+}
+
+.menu__catalogo .menu__link:hover{
+    color: #6D5423;
+    text-decoration: underline;
+}

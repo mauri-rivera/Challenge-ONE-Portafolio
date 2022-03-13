@@ -1,0 +1,42 @@
+.skill__bloque{
+    width: 1136px;
+    position: relative;
+    margin: 2rem 0 2rem 12.346%;
+    text-align: center;
+}
+
+.skill__bloque .skill__item:hover{
+    width: calc(9.125rem * 1.01);
+    height: calc(9rem * 1.01);
+    border: 2px solid #6D5423;
+}
+
+.skill__bloque .skill__item:active{
+    width: 9.125rem;
+    height: 9rem;
+    border: 2px solid #EAF2FD;
+}
+
+.skill__bloque .skill__item:hover .skill__icono{
+    width: 2.1875rem;
+}
+
+.skill__bloque .skill__item:active .skill__icono{
+    width: 2rem;
+}
+
+.skill__bloque .skill__item:hover .skill__nombre{
+    font-size: 1.1875rem;
+}
+
+.skill__bloque .skill__item:active .skill__nombre{
+    font-size: 1rem;
+}
+
+.skill__bloque .skill__icono{
+    width: 2rem;
+    position: absolute;
+    margin-left: 0.5%;
+    bottom: 19%;
+}
+
