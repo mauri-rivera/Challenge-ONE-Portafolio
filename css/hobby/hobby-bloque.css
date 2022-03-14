@@ -1,8 +1,18 @@
 .hobby__bloque{
     width: 1136px;
     position: relative;
-    margin: 2rem 0 2rem 12.346%; 
     text-align: center;
+    margin: 2rem 0 2rem 12.346%;
+    /*display: flex;*/
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.hobby__bloque .hobby__item{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .hobby__bloque .hobby__item:hover{
@@ -18,15 +28,17 @@
 }
 
 .hobby__bloque .hobby__item:hover .hobby__icono{
-    width: 2.1875rem;
+    height: 2.1875rem;
+    top: 50%;
 }
 
 .hobby__bloque .hobby__item:active .hobby__icono{
-    width: 2rem;
+    height: 2rem;
 }
 
 .hobby__bloque .hobby__item:hover .hobby__nombre{
     font-size: 1.1875rem;
+    top: 60%;
 }
 
 .hobby__bloque .hobby__item:active .hobby__nombre{
@@ -34,8 +46,8 @@
 }
  
 .hobby__bloque .hobby__icono{
-    width: 2rem;
-    position: absolute;
-    margin-left: 0.5%;
-    bottom: 19%;
+    margin-left: 3.5%;
+    height: 2rem;
+    position: relative;
+    top: 53%;
 }

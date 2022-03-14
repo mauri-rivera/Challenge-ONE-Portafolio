@@ -1,6 +1,6 @@
 .skill__nombre{
-    margin-left: 0.5%;
-    position: absolute;
     font-weight: bold;
-    bottom: 8%;
+    margin-left: 3.5%;
+    position: relative;
+    top: 63%;
 }
