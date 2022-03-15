@@ -1,8 +1,8 @@
 .presentacion__imagen{
-    margin-left: 2%;
-    width: 32%;
+    align-items: center;
     border-radius: 100%;
     display: flex;
-    align-items: center;
     float: right;
+    margin-left: 2%;
+    width: 32%;
 }

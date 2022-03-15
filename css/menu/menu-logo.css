@@ -1,6 +1,6 @@
 .menu__logo{
+    align-items: center;
+    display: flex;
     font-weight: bold;
     padding-left: 1%;
-    display: flex;
-    align-items: center;
 }

@@ -1,8 +1,8 @@
 .hobby__item{
-    width: 9.125rem;
-    height: 9rem;
-    padding: 0.8125rem;
-    margin: 0.8125rem 0.8125rem 0 0;
     background-color: #FFFFFF;
     border-radius: 0.625rem;
+    height: 9rem;
+    margin: 0.8125rem 0.8125rem 0 0;
+    padding: 0.8125rem;
+    width: 9.125rem;
 }
