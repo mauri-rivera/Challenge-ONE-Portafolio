@@ -2,5 +2,16 @@
     font-weight: bold;
     margin-left: 3.5%;
     position: relative;
-    top: 63%;
+}
+
+@media screen and (min-width: 0px){
+    .skill__nombre{
+        top: 57%;
+    }
+}
+
+@media screen and (min-width: 922px){
+    .skill__nombre{
+        top: 63%;
+    }
 }

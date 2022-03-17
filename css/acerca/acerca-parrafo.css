@@ -1,6 +1,21 @@
 .acerca__parrafo{
     font-weight: 400;
-    margin-top: 1.375rem;
-    line-height: 1.1875rem;
-    width: 66%;
+}
+
+@media screen and (min-width: 0px){
+    .acerca__parrafo{
+        font-size: 0.875rem;
+        line-height: 1.0275rem;
+        margin-top: 1rem;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 922px){
+    .acerca__parrafo{
+        font-size: 1rem;
+        line-height: 1.1875rem;
+        margin-top: 1.375rem;
+        width: 66%;
+    }
 }

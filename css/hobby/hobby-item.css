@@ -1,8 +1,31 @@
 .hobby__item{
     background-color: #FFFFFF;
     border-radius: 0.625rem;
-    height: 9rem;
-    margin: 0.8125rem 0.8125rem 0 0;
-    padding: 0.8125rem;
-    width: 9.125rem;
+}
+
+@media screen and (min-width: 0px){
+    .hobby__item{
+        height: 7.375rem;
+        margin-top: 0.8125rem;
+        padding: 0.8125rem;
+        width: 41.4%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .hobby__item{
+        height: 7.375rem;
+        margin-top: 0.8125rem;
+        padding: 0.8125rem;
+        width: 29.2%;
+    }
+}
+
+@media screen and (min-width: 922px){
+    .hobby__item{
+        height: 9rem;
+        padding: 0.8125rem;
+        margin: 0.8125rem 0.8125rem 0 0;
+        width: 9.125rem;
+    }
 }

@@ -1,5 +1,17 @@
 .menu__bloque{
-    margin: -0.3125rem 0 -1.25rem 12.346%;
     position: relative;
-    width: 1136px;
+}
+
+@media screen and (min-width: 0px){
+    .menu__bloque{
+        margin: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 922px){
+    .menu__bloque{
+        margin: -0.3125rem 0 -1.25rem 11.52%;
+        width: 1136px;
+    }
 }

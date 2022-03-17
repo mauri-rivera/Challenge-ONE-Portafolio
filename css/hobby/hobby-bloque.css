@@ -1,7 +1,5 @@
 .hobby__bloque{
-    margin: 2rem 0 2rem 12.346%;
     text-align: center;
-    width: 1136px;
 }
 
 .hobby__bloque .hobby__item{
@@ -10,39 +8,61 @@
     flex-direction: column;
 }
 
-.hobby__bloque .hobby__item:hover{
-    height: calc(9rem * 1.01);
-    border: 2px solid #6D5423;
-    width: calc(9.125rem * 1.01);
-}
-
-.hobby__bloque .hobby__item:active{
-    border: 2px solid #EAF2FD;
-    height: 9rem;
-    width: 9.125rem;
-}
-
-.hobby__bloque .hobby__item:hover .hobby__icono{
-    height: 2.1875rem;
-    top: 50%;
-}
-
-.hobby__bloque .hobby__item:active .hobby__icono{
-    height: 2rem;
-}
-
-.hobby__bloque .hobby__item:hover .hobby__nombre{
-    font-size: 1.1875rem;
-    top: 60%;
-}
-
-.hobby__bloque .hobby__item:active .hobby__nombre{
-    font-size: 1rem;
-}
- 
 .hobby__bloque .hobby__icono{
     height: 2rem;
     margin-left: 3.5%;
     position: relative;
-    top: 53%;
 }
+
+@media screen and (min-width: 0px){
+    .hobby__bloque{
+        margin: 0;
+        width: 100%;
+    }
+
+    .hobby__bloque .hobby__icono{
+        top: 47%;
+    }
+}
+
+@media screen and (min-width: 922px){
+    .hobby__bloque{
+        margin: 2rem 0 2rem 11.52%;
+        width: 1136px;
+    }
+
+    .hobby__bloque .hobby__item:hover{
+        border: 2px solid #6D5423;
+        height: calc(9rem * 1.01);
+        width: calc(9.125rem * 1.01);
+    }
+    
+    .hobby__bloque .hobby__item:active{
+        border: 2px solid #EAF2FD;
+        height: 9rem;
+        width: 9.125rem;
+    }
+
+    .hobby__bloque .hobby__item:hover .hobby__icono{
+        height: 2.1875rem;
+        top: 50%;
+    }
+    
+    .hobby__bloque .hobby__item:active .hobby__icono{
+        height: 2rem;
+    }
+    
+    .hobby__bloque .hobby__item:hover .hobby__nombre{
+        font-size: 1.1875rem;
+        top: 60%;
+    }
+    
+    .hobby__bloque .hobby__item:active .hobby__nombre{
+        font-size: 1rem;
+    }
+
+    .hobby__bloque .hobby__icono{
+        top: 53%;
+    }
+}
+ 

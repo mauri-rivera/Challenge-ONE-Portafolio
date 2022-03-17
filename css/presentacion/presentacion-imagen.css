@@ -1,8 +1,33 @@
 .presentacion__imagen{
     align-items: center;
     border-radius: 100%;
-    display: flex;
-    float: right;
-    margin-left: 2%;
-    width: 32%;
 }
+
+@media screen and (min-width: 0px){
+    .presentacion__imagen{
+        float: left;
+        display: block;
+        margin: 0 0 1rem 0;
+        width: 6.125rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .presentacion__imagen{
+        display: flex;
+        float: right;
+        margin: 0 0 0 2%;
+        width: 9.125rem;
+    }
+}
+
+@media screen and (min-width: 922px){
+    .presentacion__imagen{
+        display: flex;
+        float: right;
+        margin: 1.5% 0 0 2%;
+        width: 32%;
+    }
+}
+
+

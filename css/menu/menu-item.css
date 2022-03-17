@@ -1,7 +1,24 @@
-.menu__item{
-    font-weight: 500;
+@media screen and (min-width: 0px){
+    .menu{
+        font-size: 0.875rem;
+        font-weight: 400; 
+    }
 }
 
-.menu__item:last-child{
-    font-weight: bold;
+@media screen and (min-width: 768px){
+    .menu{
+        font-size: 1rem;
+        font-weight: bold;
+    }
 }
+
+@media screen and (min-width: 922px){
+    .menu__item{
+        font-weight: 500;
+    }
+    
+    .menu__item:last-child{
+        font-weight: bold;
+    }
+}
+

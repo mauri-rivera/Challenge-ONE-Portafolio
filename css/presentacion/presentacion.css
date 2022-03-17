@@ -3,7 +3,24 @@
     background: #F5F5F5;
     display: flex;
     justify-content: space-between;
-    padding: 2rem 0;
+}
+
+@media screen and (min-width: 0px){
+    .presentacion{
+        padding: 1rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .presentacion{
+        padding: 2rem;
+    }
+}
+
+@media screen and (min-width: 922px){
+    .presentacion{
+        padding: 2rem 2rem 2rem 0;
+    }
 }
 
 

@@ -1,6 +1,27 @@
 .hobby__titulo{
-    font-size: 2rem;
     font-weight: bold;
-    line-height: 2.375rem;
-    margin-bottom: 2.875rem;
+}
+
+@media screen and (min-width: 0px){
+    .hobby__titulo{
+        font-size: 1.375rem;
+        line-height: 1.614375rem;
+        margin: 1rem 0 2rem 0;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .hobby__titulo{
+        font-size: 1.375rem;
+        line-height: 1.614375rem;
+        margin: 2rem;
+    }
+}
+
+@media screen and (min-width: 922px){
+    .hobby__titulo{
+        font-size: 2rem;
+        line-height: 2.375rem;
+        margin-bottom: 2.875rem;
+    }
 }

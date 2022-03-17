@@ -1,6 +1,17 @@
 .acerca__bloque{
-    margin: 2rem 0 2rem 12.346%;
     position: relative;
-    width: 1136px;
 }
 
+@media screen and (min-width: 0px){
+    .acerca__bloque{
+        margin: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 922px){
+    .acerca__bloque{
+        margin: 2rem 0 2rem 11.52%;
+        width: 1136px;
+    }
+}

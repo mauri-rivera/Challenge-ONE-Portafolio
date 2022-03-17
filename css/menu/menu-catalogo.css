@@ -1,13 +1,3 @@
-.menu__catalogo{
-    padding-left: 37%;
-    position: relative;
-    top: -1.125rem;
-}
-
-.menu__catalogo .menu__item{
-    margin: 0 0 0 1.9rem;  
-}
-
 .menu__catalogo .menu__link{
     color: #464646;
     text-decoration: none;
@@ -17,3 +7,36 @@
     color: #6D5423;
     text-decoration: underline;
 }
+
+@media screen and (min-width: 0px){
+    .menu__catalogo{
+        float: right;
+        position: relative;
+        top: -1.125rem;
+    }
+
+    .menu__catalogo .menu__item{
+        margin: 0;
+    }
+
+    .menu__catalogo .menu__item:not(#menu__email){
+        display: none;
+    }
+}
+
+@media screen and (min-width: 922px){
+    .menu__catalogo{
+        padding-left: 37%;
+        position: relative;
+        top: -1.125rem;
+    }
+
+    .menu__catalogo .menu__item{
+        margin: 0 0 0 1.9rem;
+    }
+
+    .menu__catalogo .menu__item:not(#menu__email){
+        display: flex;
+    }
+}
+
