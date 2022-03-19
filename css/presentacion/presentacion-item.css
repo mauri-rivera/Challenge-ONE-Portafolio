@@ -1,0 +1,30 @@
+.presentacion__item{
+    display: inline-flex;
+}
+
+@media screen and (min-width: 0px){
+    .presentacion__item{
+        align-items: center;
+        font-size: 0.875rem;
+        font-weight: 600;
+        margin: 0 0.5rem 0 0;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .presentacion__item{
+        align-items: flex-end;
+        font-size: 1rem;
+        font-weight: 500;
+        margin: 0 2rem 0 0;
+    }
+}
+
+@media screen and (min-width: 922px){
+    .presentacion__item{
+        align-items: flex-end;
+        font-size: 1rem;
+        font-weight: 500;
+        margin: 0 2rem 0 0;
+    }
+}

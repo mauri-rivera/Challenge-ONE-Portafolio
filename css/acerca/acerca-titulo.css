@@ -1,27 +1,25 @@
 .acerca__titulo{
     font-weight: bold;
+    margin-bottom: 1rem;
 }
 
 @media screen and (min-width: 0px){
     .acerca__titulo{
         font-size: 1.375rem;
-        line-height: 1.614375rem;
-        margin-bottom: 0;
+        line-height: 1.625rem;
     }
 }
 
 @media screen and (min-width: 768px){
     .acerca__titulo{
         font-size: 1.375rem;
-        line-height: 1.614375rem;
-        margin-bottom: 2.125rem;
+        line-height: 1.625rem;
     }
 }
 
 @media screen and (min-width: 922px){
     .acerca__titulo{
         font-size: 2rem;
-        margin-bottom: 2.125rem;
         line-height: 2.375rem;
     }
 }

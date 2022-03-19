@@ -1,8 +1,6 @@
 .acerca{
-    align-items: center;
     background: #EAF2FD;
     display: flex;
-    justify-content: space-between;
 }
 
 @media screen and (min-width: 0px){
@@ -19,7 +17,7 @@
 
 @media screen and (min-width: 922px){
     .acerca{
-        padding: 2rem 0;
+        padding: 4rem 0;
     }
 }
 

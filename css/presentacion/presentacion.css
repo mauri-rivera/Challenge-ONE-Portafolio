@@ -1,8 +1,5 @@
 .presentacion{
-    align-items: center;
     background: #F5F5F5;
-    display: flex;
-    justify-content: space-between;
 }
 
 @media screen and (min-width: 0px){
@@ -19,7 +16,7 @@
 
 @media screen and (min-width: 922px){
     .presentacion{
-        padding: 2rem 2rem 2rem 0;
+        padding: 2rem 0;
     }
 }
 

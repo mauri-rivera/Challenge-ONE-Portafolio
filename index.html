@@ -9,14 +9,17 @@
         <link rel="stylesheet" href="css/contenido.css">
         <link rel="stylesheet" href="css/menu/menu.css">
         <link rel="stylesheet" href="css/menu/menu-bloque.css">
-        <link rel="stylesheet" href="css/menu/menu-catalogo.css">
         <link rel="stylesheet" href="css/menu/menu-item.css">
+        <link rel="stylesheet" href="css/menu/menu-lista.css">
+        <link rel="stylesheet" href="css/menu/menu-link.css">
         <link rel="stylesheet" href="css/menu/menu-logo.css">
-        <link rel="stylesheet" href="css/menu/menu-titulo.css">
+        <link rel="stylesheet" href="css/menu/menu-nombre.css">
         <link rel="stylesheet" href="css/presentacion/presentacion.css">
         <link rel="stylesheet" href="css/presentacion/presentacion-bloque.css">
         <link rel="stylesheet" href="css/presentacion/presentacion-imagen.css">
-        <link rel="stylesheet" href="css/presentacion/presentacion-menu.css">
+        <link rel="stylesheet" href="css/presentacion/presentacion-informacion.css">
+        <link rel="stylesheet" href="css/presentacion/presentacion-item.css">
+        <link rel="stylesheet" href="css/presentacion/presentacion-link.css">
         <link rel="stylesheet" href="css/presentacion/presentacion-parrafo.css">
         <link rel="stylesheet" href="css/presentacion/presentacion-titulo.css">
         <link rel="stylesheet" href="css/acerca/acerca.css">
@@ -38,8 +41,11 @@
     <body>
         <header class="menu">
             <div class="menu__bloque">
-                <h5 class="menu__titulo"><img src="imagenes/Group.png"><p class="menu__logo">Mauricio Rivera</p></h5>
-                <nav class="menu__catalogo">
+                <div class="menu__logo">
+                    <img class="menu__imagen" src="imagenes/Group.png">
+                    <span class="menu__nombre">Mauricio Rivera</span>
+                </div>
+                <nav>
                     <ul class="menu__lista">
                         <li class="menu__item"><a class="menu__link" href="#">Sobre mi</a></li>
                         <li class="menu__item"><a class="menu__link" href="#">Skills</a></li>
@@ -54,16 +60,18 @@
         <main>
             <section class="presentacion">
                 <div class="presentacion__bloque">
-                    <h1 class="presentacion__titulo">Hola, mi nombre es Mauricio Rivera y estoy enfocado en el desarrollo web</h1>
-                    <img class="presentacion__imagen" src="imagenes/descargar2.jpg" alt="Foto de mi perfil.">
-                    <p class="presentacion__parrafo">Soy un Ingeniero en Computación e Informática titulado en la Universidad Andrés Bello (UNAB) Chile, y actualmente estoy participando en el proyecto de Oracle ONE Alura Latam</p>
-                    <div class="presentacion__menu">
-                        <ul>
-                            <li class="presentacion__item"><a class="presentacion__link" href="https://github.com/mauri-rivera">GitHub</a><img src="imagenes/arrow_back_black_24dp 1.png"></li>
-                            <li class="presentacion__item"><a class="presentacion__link" href="https://www.linkedin.com/in/mauricio-rivera-torres">LinkedIn</a><img src="imagenes/arrow_back_black_24dp 1.png"></li>
-                            <li class="presentacion__item"><a class="presentacion__link" href="#">Curriculum Vitae</a><img src="imagenes/arrow_back_black_24dp 1.png"></li>
-                        </ul>
+                    <div class="presentacion__informacion">
+                        <h1 class="presentacion__titulo">Hola, mi nombre es Mauricio Rivera y estoy enfocado en el desarrollo web</h1>
+                        <p class="presentacion__parrafo">Soy un Ingeniero en Computación e Informática titulado en la Universidad Andrés Bello (UNAB) Chile, y actualmente estoy participando en el proyecto de Oracle ONE Alura Latam</p>
+                        <div>
+                            <ul>
+                                <li class="presentacion__item"><a class="presentacion__link" href="https://github.com/mauri-rivera">GitHub</a><img src="imagenes/arrow_back_black_24dp 1.png"></li>
+                                <li class="presentacion__item"><a class="presentacion__link" href="https://www.linkedin.com/in/mauricio-rivera-torres">LinkedIn</a><img src="imagenes/arrow_back_black_24dp 1.png"></li>
+                                <li class="presentacion__item"><a class="presentacion__link" href="#">Curriculum Vitae</a><img src="imagenes/arrow_back_black_24dp 1.png"></li>
+                            </ul>
+                        </div>
                     </div>
+                    <img class="presentacion__imagen" src="imagenes/descargar2.jpg" alt="Foto de mi perfil.">
                 </div>
             </section>
             <section class="acerca">

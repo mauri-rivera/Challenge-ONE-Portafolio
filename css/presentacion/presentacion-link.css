@@ -1,0 +1,27 @@
+.presentacion__link{
+    color: #464646;
+    text-decoration: none;
+}
+
+.presentacion__link:hover{
+    color: #6D5423;
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 0px){
+    .presentacion__link{
+        line-height: 1rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .presentacion__link{
+        line-height: 1.1875rem; 
+    }
+}
+
+@media screen and (min-width: 922px){
+    .presentacion__link{
+        line-height: 1.1875rem;
+    }
+}

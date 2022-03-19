@@ -1,31 +1,29 @@
 .presentacion__parrafo{
+    display: flex;
     font-weight: 400;
-    margin: 3.6% 0;
 }
 
 @media screen and (min-width: 0px){
     .presentacion__parrafo{
-        display: inline-block;
         font-size: 0.875rem;
-        line-height: 1.171875rem;
+        line-height: 1rem;
+        margin: 1rem 0;
         width: 100%;
     }
 }
 
 @media screen and (min-width: 768px){
     .presentacion__parrafo{
-        display: inline-flex;
         font-size: 1rem;
         line-height: 1.1875rem;
-        width: 66%;
+        margin: 0.5rem 0;
     }
 }
 
 @media screen and (min-width: 922px){
     .presentacion__parrafo{
-        display: inline-flex;
         font-size: 1.375rem;
         line-height: 1.625rem;
-        width: 66%;
+        margin: 1.5rem 0;
     }
 }

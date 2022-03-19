@@ -1,7 +1,3 @@
-.acerca__bloque{
-    position: relative;
-}
-
 @media screen and (min-width: 0px){
     .acerca__bloque{
         margin: 0;
@@ -11,7 +7,7 @@
 
 @media screen and (min-width: 922px){
     .acerca__bloque{
-        margin: 2rem 0 2rem 11.52%;
-        width: 1136px;
+        margin: 0 10.56vw;
+        width: 78.88vw;
     }
 }

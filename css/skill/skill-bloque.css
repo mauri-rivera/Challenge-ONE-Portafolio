@@ -27,8 +27,8 @@
 
 @media screen and (min-width: 922px){
     .skill__bloque{
-        margin: 2rem 0 2rem 11.52%;
-        width: 1136px;
+        margin: 0 10.56vw 5.5rem 10.56vw;
+        width: 78.88vw;
     }
 
     .skill__bloque .skill__item:hover{

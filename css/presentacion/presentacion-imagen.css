@@ -1,32 +1,35 @@
 .presentacion__imagen{
-    align-items: center;
     border-radius: 100%;
 }
 
 @media screen and (min-width: 0px){
     .presentacion__imagen{
-        float: left;
         display: block;
+        height: 98px;
         margin: 0 0 1rem 0;
-        width: 6.125rem;
+        order: 1;
+        width: 98px;
     }
 }
 
 @media screen and (min-width: 768px){
     .presentacion__imagen{
         display: flex;
-        float: right;
-        margin: 0 0 0 2%;
-        width: 9.125rem;
+        height: 146px;
+        margin: 0 0 0 2rem;
+        order: 2;
+        width: 146px;
     }
 }
 
 @media screen and (min-width: 922px){
     .presentacion__imagen{
         display: flex;
-        float: right;
-        margin: 1.5% 0 0 2%;
-        width: 32%;
+        height: 368px;
+        margin: 0 0 0 1.0625rem;
+        order: 2;
+        width: 368px;
+       
     }
 }
 
