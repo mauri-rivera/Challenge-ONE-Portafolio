@@ -1,31 +1,40 @@
 .skill__item{
+    align-items: flex-start;
     background-color: #FFFFFF;
     border-radius: 0.625rem;
+    box-shadow: 2px 2px 2px #ACA4A4;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 1rem;
 }
 
 @media screen and (min-width: 0px){
     .skill__item{
         height: 7.375rem;
-        margin-top: 0.8125rem;
-        padding: 0.8125rem;
-        width: 41.4%;
+        margin: 2rem 1%;
+        width: 37.6%;
     }
 }
 
 @media screen and (min-width: 768px){
     .skill__item{
         height: 7.375rem;
-        margin-top: 0.8125rem;
-        padding: 0.8125rem;
-        width: 29.2%;
+        margin: 2rem 1%;
+        width: 26.4%;
     }
 }
 
 @media screen and (min-width: 922px){
     .skill__item{
         height: 9rem;
-        padding: 0.8125rem;
-        margin: 0.8125rem 0.8125rem 0 0;
+        padding: 1rem;
+        margin: 2rem 0.4vw;
         width: 9.125rem;
+        transition: 0.3s;
+    }
+
+    .skill__item:hover{
+        box-shadow: 4px 4px 4px #ACA4A4;
     }
 }
