@@ -1,5 +1,17 @@
+:root{
+    --raleway: 'Raleway', sans-serif;
+
+    --background-celeste-suave: #EAF2FD;
+    --background-plateado-suave: #F5F5F5; 
+    --box-blanco: #FFFFFF;
+
+    --color-oscuro: #464646;
+    --marron-suave: #6D5423;
+    --sombra-suave: #ACA4A4;
+}
+
 body{
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--raleway);
 }
 
 

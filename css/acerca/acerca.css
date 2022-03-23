@@ -1,5 +1,5 @@
 .acerca{
-    background: #EAF2FD;
+    background: var(--background-celeste-suave);
     display: flex;
 }
 

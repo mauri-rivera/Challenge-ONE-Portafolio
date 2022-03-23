@@ -1,8 +1,8 @@
 .hobby__item{
     align-items: flex-start;
-    background-color: #FFFFFF;
+    background-color: var(--box-blanco);
     border-radius: 0.625rem;
-    box-shadow: 2px 2px 2px #ACA4A4;
+    box-shadow: 2px 2px 2px var(--sombra-suave);
     display: inline-flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -35,6 +35,6 @@
     }
 
     .hobby__item:hover{
-        box-shadow: 4px 4px 4px #ACA4A4;
+        box-shadow: 4px 4px 4px var(--sombra-suave);
     }
 }

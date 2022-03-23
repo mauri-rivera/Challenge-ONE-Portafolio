@@ -1,9 +1,9 @@
 .menu__link{
-    color: #464646;
+    color: var(--color-oscuro);
     text-decoration: none;
 }
 
 .menu__link:hover{
-    color: #6D5423;
+    color: var(--marron-suave);
     text-decoration: underline;
 }

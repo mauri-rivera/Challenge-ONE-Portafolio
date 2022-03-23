@@ -1,5 +1,5 @@
 .presentacion{
-    background: #F5F5F5;
+    background: var(--background-plateado-suave);
 }
 
 @media screen and (min-width: 0px){
