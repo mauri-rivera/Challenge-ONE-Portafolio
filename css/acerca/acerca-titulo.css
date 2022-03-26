@@ -1,4 +1,5 @@
 .acerca__titulo{
+    color: var(--color-oscuro);
     font-weight: bold;
     margin-bottom: 1rem;
 }

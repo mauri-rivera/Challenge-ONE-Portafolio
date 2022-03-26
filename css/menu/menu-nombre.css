@@ -1,5 +1,6 @@
 .menu__nombre{
+    color: var(--color-oscuro);
     font-weight: bold;
     line-height: 1.1875rem;
-    margin-left: 0.5rem;
+    margin-left: .5rem;
 }

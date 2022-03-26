@@ -1,7 +1,7 @@
 .skill__item{
     align-items: flex-start;
     background-color: var(--box-blanco);
-    border-radius: 0.625rem;
+    border-radius: .625rem;
     box-shadow: 2px 2px 2px var(--sombra-suave);
     display: inline-flex;
     flex-direction: column;
@@ -29,9 +29,9 @@
     .skill__item{
         height: 9rem;
         padding: 1rem;
-        margin: 2rem 0.4vw;
+        margin: 2rem .4vw;
         width: 9.125rem;
-        transition: 0.3s;
+        transition: .3s;
     }
 
     .skill__item:hover{

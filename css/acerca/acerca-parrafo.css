@@ -1,11 +1,12 @@
 .acerca__parrafo{
+    color: var(--color-oscuro);
     font-weight: 400;
     margin-top: 1rem;
 }
 
 @media screen and (min-width: 0px){
     .acerca__parrafo{
-        font-size: 0.875rem;
+        font-size: .875rem;
         line-height: 1rem;
         width: 100%;
     }
@@ -15,6 +16,6 @@
     .acerca__parrafo{
         font-size: 1rem;
         line-height: 1.1875rem;
-        width: 51.48vw;
+        width: 51.46vw;
     }
 }

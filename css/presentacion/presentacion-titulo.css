@@ -1,4 +1,5 @@
 .presentacion__titulo{
+    color: var(--color-oscuro);
     display: flex;
     font-weight: bold; 
 }

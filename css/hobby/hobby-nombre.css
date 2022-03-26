@@ -1,5 +1,6 @@
 .hobby__nombre{
+    color: var(--color-oscuro);
     display: flex;
     font-weight: bold;
-    margin-top: 0.5rem;
+    margin-top: .5rem;
 }

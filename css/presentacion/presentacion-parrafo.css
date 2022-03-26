@@ -1,11 +1,12 @@
 .presentacion__parrafo{
+    color: var(--color-oscuro);
     display: flex;
     font-weight: 400;
 }
 
 @media screen and (min-width: 0px){
     .presentacion__parrafo{
-        font-size: 0.875rem;
+        font-size: .875rem;
         line-height: 1rem;
         margin: 1rem 0;
         width: 100%;
@@ -16,7 +17,7 @@
     .presentacion__parrafo{
         font-size: 1rem;
         line-height: 1.1875rem;
-        margin: 0.5rem 0;
+        margin: .5rem 0;
     }
 }
 
