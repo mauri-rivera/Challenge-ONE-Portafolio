@@ -1,0 +1,5 @@
+.formacion__contenido{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

@@ -1,0 +1,16 @@
+.formacion{
+    background: var(--background-celeste-suave);
+    padding: 5.125rem 0;
+}
+
+@media screen and (min-width: 0px){
+    .formacion{
+        padding: 2rem;
+    }
+}
+
+@media screen and (min-width: 922px){
+    .formacion{
+        padding: 5.125rem 0;
+    }
+}

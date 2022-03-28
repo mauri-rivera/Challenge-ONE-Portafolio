@@ -1,0 +1,19 @@
+.formacion__titulo{
+    color: var(--color-oscuro);
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 0px){
+    .formacion__titulo{
+        font-size: 1.375rem;
+        line-height: 1.625rem;
+    }
+}
+
+@media screen and (min-width: 922px){
+    .formacion__titulo{
+        font-size: 2rem;
+        line-height: 2.375rem;
+    }
+}
