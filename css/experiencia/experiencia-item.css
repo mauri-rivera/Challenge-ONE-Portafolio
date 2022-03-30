@@ -1,0 +1,14 @@
+@media screen and (min-width: 0px){
+    .experiencia__item{
+        margin-top: .5rem;
+    }
+}
+
+@media screen and (min-width: 922px){
+    .experiencia__item{
+        margin-top: 1rem;
+    }
+}
+
+
+

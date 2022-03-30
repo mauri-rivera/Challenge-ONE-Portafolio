@@ -1,0 +1,21 @@
+.experiencia__titulo{
+    color: var(--color-oscuro);
+    font-weight: bold;
+    text-align: center;
+}
+
+@media screen and (min-width: 0px){
+    .experiencia__titulo{
+        font-size: 1.375rem;
+        line-height: 1.625rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (min-width: 922px){
+    .experiencia__titulo{
+        font-size: 2rem;
+        line-height: 2.375rem;
+        margin-bottom: 2rem;
+    }
+}

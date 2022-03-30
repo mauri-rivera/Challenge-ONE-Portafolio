@@ -1,0 +1,15 @@
+.experiencia{
+    background: var(--background-plateado-suave);
+}
+
+@media screen and (min-width: 0px){
+    .experiencia{
+        padding: 2rem;
+    }
+}
+
+@media screen and (min-width: 922px){
+    .experiencia{
+        padding: 2rem 0;
+    }
+}

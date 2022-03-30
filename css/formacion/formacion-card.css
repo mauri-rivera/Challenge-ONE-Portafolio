@@ -28,7 +28,7 @@
     .formacion__card{
         grid-template-rows: 17.875rem auto;
         height: 21.6875rem;
-        margin: 1rem .84vw;
+        margin: 1rem .8vw;
         width: 23rem;
     } 
 }
