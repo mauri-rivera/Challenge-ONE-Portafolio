@@ -1,0 +1,34 @@
+.formacion__card{
+    display: grid;
+    grid-template-areas:
+        "card-imagen"
+        "card-informacion";
+    grid-template-columns: 100%;
+}
+
+@media screen and (min-width: 0px){
+    .formacion__card{
+        grid-template-rows: 7.375rem auto;
+        height: 10.5625rem;
+        margin-bottom: 1rem;
+        width: 100%;
+    }   
+}
+
+@media screen and (min-width: 768px){
+    .formacion__card{
+        grid-template-rows: 7.375rem auto;
+        height: 10.5625rem;
+        margin: 1rem .5rem;
+        width: 14rem;
+    }
+}
+
+@media screen and (min-width: 922px){
+    .formacion__card{
+        grid-template-rows: 17.875rem auto;
+        height: 21.6875rem;
+        margin: 1rem .8vw;
+        width: 23rem;
+    } 
+}

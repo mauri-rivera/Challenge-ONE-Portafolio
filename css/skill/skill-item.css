@@ -2,7 +2,6 @@
     align-items: flex-start;
     background-color: var(--box-blanco);
     border-radius: .625rem;
-    box-shadow: 2px 2px 2px var(--sombra-suave);
     display: inline-flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -11,6 +10,7 @@
 
 @media screen and (min-width: 0px){
     .skill__item{
+        box-shadow: none;
         height: 7.375rem;
         margin: 2rem 1%;
         width: 37.6%;
@@ -19,6 +19,7 @@
 
 @media screen and (min-width: 768px){
     .skill__item{
+        box-shadow: none;
         height: 7.375rem;
         margin: 2rem 1%;
         width: 26.4%;
@@ -27,6 +28,7 @@
 
 @media screen and (min-width: 922px){
     .skill__item{
+        box-shadow: 2px 2px 2px var(--sombra-suave);
         height: 9rem;
         padding: 1rem;
         margin: 2rem .4vw;

@@ -1,0 +1,44 @@
+.experiencia__proyecto{
+    display: flex;
+}
+
+.experiencia__proyecto:nth-child(2){
+    margin-bottom: 4rem;
+}
+
+.experiencia__proyecto:nth-child(3) .experiencia__imagen{
+    margin-right: 0;
+}
+
+@media screen and (min-width: 0px){
+    .experiencia__proyecto{
+        flex-direction: column;
+    }
+    
+    .experiencia__proyecto:nth-child(3) .experiencia__informacion{
+        margin-right: 0;
+    }
+}
+
+@media screen and (min-width: 922px){  
+    .experiencia__proyecto{
+        align-items: center;
+    }
+
+    .experiencia__proyecto:nth-child(2){
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    
+    .experiencia__proyecto:nth-child(3){
+        flex-direction: row-reverse;
+        justify-content: space-between; 
+    }
+        
+    .experiencia__proyecto:nth-child(3) .experiencia__informacion{
+        margin-right: 1rem;
+    }
+}
+
+
+

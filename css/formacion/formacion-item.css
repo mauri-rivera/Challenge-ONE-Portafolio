@@ -1,0 +1,27 @@
+.formacion__item{
+    align-items: center;
+    background: var(--box-blanco);
+    border-radius: .625rem;
+    display: flex;
+    grid-area: card-imagen;
+    justify-content: center;
+    padding: 1rem;
+}
+
+@media screen and (min-width: 0px){
+    .formacion__item{
+        box-shadow: none;
+    }
+}
+
+@media screen and (min-width: 922px){
+    .formacion__item{
+        box-shadow: 2px 2px 2px var(--sombra-suave);
+        padding: 1rem;
+        transition: .3s;
+    }
+    
+    .formacion__item:hover{
+        box-shadow: 4px 4px 4px var(--sombra-suave);
+    }
+}

@@ -1,0 +1,11 @@
+@media screen and (min-width: 0px){
+    .formacion__imagen{
+        height: 3.625rem;
+    }
+}
+
+@media screen and (min-width: 922px){
+    .formacion__imagen{
+        height: 8.125rem;
+    }
+}
