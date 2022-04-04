@@ -1,0 +1,5 @@
+.contacto__informacion{
+    display: flex;
+    margin-top: 4rem;
+    flex-direction: column;
+}
