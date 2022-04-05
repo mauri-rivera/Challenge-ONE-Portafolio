@@ -1,7 +1,21 @@
 .contacto__titulo{
-    color:var(--color-oscuro);
+    color: var(--color-oscuro);
     font-weight: bold;
     font-size: 2rem;
     line-height: 2.375rem;
     margin-bottom: .5rem;
+}
+
+@media screen and (min-width: 0px){
+    .contacto__titulo{
+        font-size: 1.375rem;
+        line-height: 1.625rem;
+    }
+}
+
+@media screen and (min-width: 922px){
+    .contacto__titulo{
+        font-size: 2rem;
+        line-height: 2.375rem;
+    }
 }

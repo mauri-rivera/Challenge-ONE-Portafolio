@@ -60,13 +60,26 @@
         <link rel="stylesheet" href="css/experiencia/experiencia-proyecto.css">
         <link rel="stylesheet" href="css/experiencia/experiencia-repositorio.css">
         <link rel="stylesheet" href="css/experiencia/experiencia-titulo.css">
+        <link rel="stylesheet" href="css/contacto/contacto.css">
+        <link rel="stylesheet" href="css/contacto/contacto-asunto.css">
+        <link rel="stylesheet" href="css/contacto/contacto-bloque.css">
+        <link rel="stylesheet" href="css/contacto/contacto-email.css">
+        <link rel="stylesheet" href="css/contacto/contacto-envio.css">
+        <link rel="stylesheet" href="css/contacto/contacto-formulario.css">
+        <link rel="stylesheet" href="css/contacto/contacto-imagen.css">
+        <link rel="stylesheet" href="css/contacto/contacto-informacion.css">
+        <link rel="stylesheet" href="css/contacto/contacto-mensaje.css">
+        <link rel="stylesheet" href="css/contacto/contacto-nombre.css">
+        <link rel="stylesheet" href="css/contacto/contacto-nota.css">
+        <link rel="stylesheet" href="css/contacto/contacto-texto.css">
+        <link rel="stylesheet" href="css/contacto/contacto-titulo.css">
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
     </head>
     <body>
         <header class="menu">
             <div class="menu__bloque">
                 <div class="menu__logo">
-                    <img class="menu__imagen" src="imagenes/Group.png">
+                    <img src="imagenes/Group.png" class="menu__imagen">
                     <span class="menu__nombre">Mauricio Rivera</span>
                 </div>
                 <nav>
@@ -116,7 +129,7 @@
                             </ul>
                         </div>
                     </div>
-                    <img class="presentacion__imagen" src="imagenes/descargar2.jpg" alt="Foto de mi perfil.">
+                    <img src="imagenes/descargar2.jpg" alt="Foto de mi perfil." class="presentacion__imagen">
                 </div>
             </section>
             <section class="acerca">
@@ -133,34 +146,34 @@
                     <h2 class="skill__titulo">Skills</h2>
                     <ul>
                         <li class="skill__item">
-                            <img class="skill__icono" src="imagenes/java.png">
+                            <img src="imagenes/java.png" class="skill__icono">
                             <span class="skill__nombre">Java</span></li>
                         <li class="skill__item">
-                            <img class="skill__icono" src="imagenes/js.png">
+                            <img src="imagenes/js.png" class="skill__icono">
                             <span class="skill__nombre">JavaScript</span>
                         </li>
                         <li class="skill__item">
-                            <img class="skill__icono" src="imagenes/c-sharp.png">
+                            <img src="imagenes/c-sharp.png" class="skill__icono">
                             <span class="skill__nombre">C Sharp</span>
                         </li>
                         <li class="skill__item">
-                            <img class="skill__icono" src="imagenes/python.png">
+                            <img src="imagenes/python.png" class="skill__icono">
                             <span class="skill__nombre">Python</span>
                         </li>
                         <li class="skill__item">
-                            <img class="skill__icono" src="imagenes/asp.net-mvc.png">
+                            <img src="imagenes/asp.net-mvc.png" class="skill__icono">
                             <span class="skill__nombre">ASP.NET MVC</span>
                         </li>
                         <li class="skill__item">
-                            <img class="skill__icono" src="imagenes/git.png">
+                            <img src="imagenes/git.png" class="skill__icono">
                             <span class="skill__nombre">Git</span>
                         </li>
                         <li class="skill__item">
-                            <img class="skill__icono" src="imagenes/html-5.png">
+                            <img src="imagenes/html-5.png" class="skill__icono">
                             <span class="skill__nombre">HTML</span>
                         </li>
                         <li class="skill__item">
-                            <img class="skill__icono" src="imagenes/css-3.png">
+                            <img src="imagenes/css-3.png" class="skill__icono">
                             <span class="skill__nombre">CSS</span>
                         </li>
                     </ul>
@@ -171,15 +184,15 @@
                     <h2 class="hobby__titulo">Hobbies</h2>
                     <ul>
                         <li class="hobby__item">
-                            <img class="hobby__icono" src="imagenes/palanca-de-mando.png">
+                            <img src="imagenes/palanca-de-mando.png" class="hobby__icono">
                             <span class="hobby__nombre">Videojuegos</span>
                         </li>
                         <li class="hobby__item">
-                            <img class="hobby__icono" src="imagenes/series.png">
+                            <img src="imagenes/series.png" class="hobby__icono">
                             <span class="hobby__nombre">Ver series</span>
                         </li>
                         <li class="hobby__item">
-                            <img class="hobby__icono" src="imagenes/nadando.png">
+                            <img src="imagenes/nadando.png" class="hobby__icono">
                             <span class="hobby__nombre">Natación</span>
                         </li>
                     </ul>
@@ -247,6 +260,27 @@
                                 </li>
                             </ul>
                         </div>
+                    </div>
+                </div>
+            </section>
+            <section class="contacto">
+                <div class="contacto__bloque">
+                    <img src="imagenes/unsplash_JYGnB9gTCls.png" alt="contacto" class="contacto__imagen">
+                    <div class="contacto__informacion">
+                        <h2 class="contacto__titulo">Contacto</h2>
+                        <span class="contacto__nota">¿Quieres contactarme?</span>
+                        <span class="contacto__nota">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible</span>
+                        <form class="contacto__formulario">
+                            <input type="text" placeholder="Nombre" id="nombre" required="required" class="contacto__nombre">
+                            <label for="nombre" class="contacto__texto--nombre">Nombre</label>
+                            <input type="email" placeholder="E-mail" id="email" required="required" class="contacto__email">
+                            <label for="email" class="contacto__texto--email">E-mail</label>
+                            <input type="text" placeholder="Asunto" id="asunto" required="required" class="contacto__asunto">
+                            <label for="asunto" class="contacto__texto--asunto">Asunto</label>
+                            <textarea name="mensaje" cols="30" rows="10" placeholder="Mensaje" id="mensaje" required="required" class="contacto__mensaje"></textarea>
+                            <label for="mensaje" class="contacto__texto--mensaje">Mensaje</label>
+                            <input type="submit" value="Enviar mensaje" class="contacto__envio">
+                        </form>
                     </div>
                 </div>
             </section>

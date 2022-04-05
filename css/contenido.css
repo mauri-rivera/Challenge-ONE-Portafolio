@@ -5,15 +5,23 @@
     --background-plateado-suave: #F5F5F5; 
     --box-blanco: #FFFFFF;
 
-    --azul-suave: #194989;
+    --azul-suave: #15273e;
     --color-oscuro: #464646;
     --marron-suave: #655027;
+    --plateado-suave: #F5F5F5;
     --sombra-suave: #ACA4A4;
 }
 
 body{
     font-family: var(--raleway);
 }
+
+
+
+
+
+
+
 
 
 

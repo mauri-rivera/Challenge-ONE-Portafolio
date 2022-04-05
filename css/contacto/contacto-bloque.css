@@ -1,5 +1,17 @@
 .contacto__bloque{
     display: flex;
-    margin: 0 10.56vw;
-    width: 78.88vw;
+}
+
+@media screen and (min-width: 0px){
+    .contacto__bloque{
+        margin: 0; 
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 922px){
+    .contacto__bloque{
+        margin: 0 10.56vw;
+        width: 78.88vw;
+    }
 }

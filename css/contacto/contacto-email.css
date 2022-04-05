@@ -1,0 +1,40 @@
+.contacto__email{
+    border: none;
+    border-bottom: 2px solid var(--sombra-suave);
+    border-radius: .625rem;
+    font-weight: 400;
+    height: 3.5rem;
+    line-height: 1.25rem; 
+    margin-bottom: 2rem;
+    outline: none;
+    padding: .75rem .75rem 0 .75rem; 
+    z-index: 0;
+}
+
+.contacto__email:focus{
+    border: none;
+    border-bottom: 2px solid var(--marron-suave);
+    color: var(--color-oscuro);
+    height: 3.5rem;
+    line-height: 1.25rem; 
+    padding: .75rem .75rem 0 .75rem; 
+}
+
+.contacto__email:focus + .contacto__texto--email{
+    color: var(--marron-suave);
+    font-size: .75rem;
+    font-weight: bold;
+    line-height: 1rem;
+    top: 6.95rem; 
+}
+
+.contacto__email:not(:placeholder-shown) + .contacto__texto--email{
+    font-size: .75rem;
+    font-weight: bold;
+    line-height: 1rem;
+    top: 6.95rem;
+}
+
+.contacto__email::placeholder{
+    color: transparent;
+}
