@@ -11,17 +11,19 @@
 @media screen and (min-width: 0px){
     .presentacion__link{
         line-height: 1rem;
+        position: relative;
+        top: 0.09rem;
     }
 }
 
 @media screen and (min-width: 768px){
     .presentacion__link{
-        line-height: 1.1875rem; 
+        line-height: 1.6rem;
     }
 }
 
 @media screen and (min-width: 922px){
     .presentacion__link{
-        line-height: 1.1875rem;
+        line-height: 1.6rem;
     }
 }
