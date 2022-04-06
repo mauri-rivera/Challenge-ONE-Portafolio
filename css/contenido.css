@@ -2,7 +2,8 @@
     --raleway: 'Raleway', sans-serif;
 
     --background-celeste-suave: #EAF2FD;
-    --background-plateado-suave: #F5F5F5; 
+    --background-plateado-suave: #F5F5F5;
+    --background-blanco-suave: #FFFFFF;
     --box-blanco: #FFFFFF;
 
     --azul-suave: #15273e;
@@ -16,6 +17,9 @@ body{
     font-family: var(--raleway);
 }
 
+html{
+    scroll-behavior: smooth;
+}
 
 
 

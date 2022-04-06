@@ -7,7 +7,7 @@
 
 @media screen and (min-width: 922px){
     .acerca__bloque{
-        margin: 0 10.56vw;
+        margin: 3.5rem 10.56vw 0 10.56vw;
         width: 78.88vw;
     }
 }

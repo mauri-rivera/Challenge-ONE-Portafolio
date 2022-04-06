@@ -25,7 +25,7 @@
     .presentacion__bloque{
         flex-direction: row;
         justify-content: space-between; 
-        margin: 0 10.56vw;
+        margin: 5.5rem 10.56vw 0 10.56vw;
         width: 78.88vw;
     }
 }

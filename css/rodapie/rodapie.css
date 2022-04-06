@@ -1,0 +1,7 @@
+.rodapie{
+    align-items: center;
+    background: var(--background-blanco-suave);
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}

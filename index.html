@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width initial-scale=1.0">
         <title>Portafolio | Mauricio Rivera</title>
+        <link rel="icon" href="imagenes/favicon.png">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/contenido.css">
@@ -73,6 +74,9 @@
         <link rel="stylesheet" href="css/contacto/contacto-nota.css">
         <link rel="stylesheet" href="css/contacto/contacto-texto.css">
         <link rel="stylesheet" href="css/contacto/contacto-titulo.css">
+        <link rel="stylesheet" href="css/rodapie/rodapie.css">
+        <link rel="stylesheet" href="css/rodapie/rodapie-imagen.css">
+        <link rel="stylesheet" href="css/rodapie/ropadie-texto.css">
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
     </head>
     <body>
@@ -85,29 +89,32 @@
                 <nav>
                     <ul class="menu__lista">
                         <li class="menu__item">
-                            <a class="menu__link" href="#">Sobre mi</a>
+                            <a class="menu__link" href="#presentacion">Presentación</a>
                         </li>
                         <li class="menu__item">
-                            <a class="menu__link" href="#">Skills</a>
+                            <a class="menu__link" href="#acerca">Sobre mi</a>
                         </li>
                         <li class="menu__item">
-                            <a class="menu__link" href="#">Hobbies</a>
+                            <a class="menu__link" href="#skill">Skills</a>
                         </li>
                         <li class="menu__item">
-                            <a class="menu__link" href="#">Formación</a>
+                            <a class="menu__link" href="#hobby">Hobbies</a>
                         </li>
                         <li class="menu__item">
-                            <a class="menu__link" href="#">Proyectos</a>
+                            <a class="menu__link" href="#formacion">Formación</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#proyecto">Proyectos</a>
                         </li>
                         <li class="menu__item" id="menu__email">
-                            <a class="menu__link" href="#">mauri.rivera@outlook.com</a>
+                            <a class="menu__link" href="#contacto">mauri.rivera@outlook.com</a>
                         </li>
                     </ul>
                 </nav>
             </div>
         </header>
         <main>
-            <section class="presentacion">
+            <section id="presentacion" class="presentacion">
                 <div class="presentacion__bloque">
                     <div class="presentacion__informacion">
                         <h1 class="presentacion__titulo">Hola, mi nombre es Mauricio Rivera y estoy enfocado en el desarrollo web</h1>
@@ -132,7 +139,7 @@
                     <img src="imagenes/descargar2.jpg" alt="Foto de mi perfil." class="presentacion__imagen">
                 </div>
             </section>
-            <section class="acerca">
+            <section id="acerca" class="acerca">
                 <div class="acerca__bloque">
                     <h2 class="acerca__titulo">Sobre mi</h2>
                     <p class="acerca__parrafo">Acerca de mi, desde niño, a la edad de 10 años, la primera noción sobre la informática empieza con los videosjuegos desde la clásica consolas de la tercera generación hasta las más conocidas de la quinta generación.</p>
@@ -141,7 +148,7 @@
                     <p class="acerca__parrafo">Hoy en día, como profesional, no sólo quiero aprender sobre las habilidades duras (HardSkills) para actualizar mis conocimientos, sino también y sobretodo, las habilidades blandas (SoftSkills) que se requieren por ser indispensables para el trabajo en equipo, y eso puedo adquirirlo y practicarlo gracias al Proyecto Oracle ONE desde Alura Latam.</p>
                 </div>
             </section>
-            <section class="skill">
+            <section id="skill" class="skill">
                 <div class="skill__bloque">
                     <h2 class="skill__titulo">Skills</h2>
                     <ul>
@@ -179,7 +186,7 @@
                     </ul>
                 </div>
             </section>
-            <section class="hobby">
+            <section id="hobby" class="hobby">
                 <div class="hobby__bloque">
                     <h2 class="hobby__titulo">Hobbies</h2>
                     <ul>
@@ -198,7 +205,7 @@
                     </ul>
                 </div>
             </section>
-            <section class="formacion">
+            <section id="formacion" class="formacion">
                 <div class="formacion__bloque">
                     <h2 class="formacion__titulo">Formación académica</h2>
                     <div class="formacion__contenido">
@@ -232,7 +239,7 @@
                     </div>
                 </div>
             </section>
-            <section class="experiencia">
+            <section id="proyecto" class="experiencia">
                 <div class="experiencia__bloque">
                     <h2 class="experiencia__titulo">Experiencia Profesional</h2>
                     <div class="experiencia__proyecto">
@@ -263,7 +270,7 @@
                     </div>
                 </div>
             </section>
-            <section class="contacto">
+            <section id="contacto" class="contacto">
                 <div class="contacto__bloque">
                     <img src="imagenes/unsplash_JYGnB9gTCls.png" alt="contacto" class="contacto__imagen">
                     <div class="contacto__informacion">
@@ -285,8 +292,10 @@
                 </div>
             </section>
         </main>
-        <footer>
-
+        <footer class="rodapie">
+            <img src="imagenes/noun-owl.png" alt="buho" class="rodapie__imagen">
+            <span class="rodapie__texto">Desarrollado por Mauricio Rivera</span>
+            <span class="rodapie__texto">2022</span>
         </footer>
     </body>
 </html>
