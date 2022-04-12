@@ -9,24 +9,24 @@
     left: .75rem; 
     line-height: 1.25rem;
     position: absolute; 
-    transition: .5s;
+    transition: .5s all;
     z-index: 1;
 }
 
 .contacto__texto--asunto{
-    top: 14.17rem;
+    top: 14.225rem
 }
 
 .contacto__texto--email{
-    top: 7.87rem;
+    top: 7.875rem;
 }
 
 .contacto__texto--mensaje{
-    top: 20.7rem;
+    top: 20.575rem
 }
 
 .contacto__texto--nombre{
-    top: 1.55rem;
+    top: 1.525rem;
 }
 
 

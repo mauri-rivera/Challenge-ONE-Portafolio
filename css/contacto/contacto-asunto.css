@@ -1,38 +1,35 @@
-.contacto__asunto{
+.contacto__asunto, 
+.contacto__asunto:focus{
     border: none;
+    height: 3.5rem;
+    line-height: 1.25rem; 
+    padding: .75rem .75rem 0 .75rem; 
+}
+
+.contacto__asunto{
     border-bottom: 2px solid var(--sombra-suave);
     border-radius: .625rem;
     font-weight: 400;
-    height: 3.5rem;
-    line-height: 1.25rem; 
     margin-bottom: 2rem;
     outline: none;
-    padding: .75rem .75rem 0 .75rem; 
     z-index: 0;
 }
 
 .contacto__asunto:focus{
-    border: none;
     border-bottom: 2px solid var(--marron-suave);
-    color: var(--color-oscuro);
-    height: 3.5rem;
-    line-height: 1.25rem; 
-    padding: .75rem .75rem 0 .75rem; 
+    color: var(--color-oscuro); 
 }
 
-.contacto__asunto:focus + .contacto__texto--asunto{
-    color: var(--marron-suave);
-    font-size: .75rem;
-    font-weight: bold;
-    line-height: 1rem;
-    top: 13.3rem; 
-}
-
+.contacto__asunto:focus + .contacto__texto--asunto,
 .contacto__asunto:not(:placeholder-shown) + .contacto__texto--asunto{
     font-size: .75rem;
     font-weight: bold;
     line-height: 1rem;
-    top: 13.3rem;
+    top: 13.2rem; 
+}
+
+.contacto__asunto:focus + .contacto__texto--asunto{
+    color: var(--marron-suave);
 }
 
 .contacto__asunto::placeholder{
