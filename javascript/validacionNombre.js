@@ -10,11 +10,10 @@ export function validarTecla(){
         }
     });
 
-    function comprobarNumero(keyChar, evento){
-        const filtroNumero = "^[0-9]+$";
+    function comprobarCaracter(keyChar, evento){
         let resultado;
-        
-        if(keyChar.match(filtroNumero) != null){  
+    
+        if(keyChar == 9 || (keyChar >= 17 && keyChar <= 20) || keyChar == 27 || (keyChar >= 33 && keyChar <= 36) || keyChar == 45 || keyChar == 46 || keyChar == 112 || keyChar == 113 || keyChar == 115 || (keyChar >= 117 && keyChar <= 121) || keyChar == 123 || (keyChar >= 186 && keyChar <= 191) || (keyChar >= 219 && keyChar <= 222)){  
             evento.preventDefault();
             return keyChar;
         }
@@ -23,11 +22,12 @@ export function validarTecla(){
             return resultado;
         } 
     }
-    
-    function comprobarCaracter(keyChar, evento){
+
+    function comprobarNumero(keyChar, evento){
+        const filtroNumero = "^[0-9]+$";
         let resultado;
-    
-        if(keyChar == 9 || (keyChar >= 17 && keyChar <= 20) || keyChar == 27 || (keyChar >= 33 && keyChar <= 36) || keyChar == 45 || keyChar == 46 || keyChar == 112 || keyChar == 113 || keyChar == 115 || (keyChar >= 117 && keyChar <= 121) || keyChar == 123 || (keyChar >= 186 && keyChar <= 191) || (keyChar >= 219 && keyChar <= 222)){  
+        
+        if(keyChar.match(filtroNumero) != null){  
             evento.preventDefault();
             return keyChar;
         }

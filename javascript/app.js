@@ -1,3 +1,4 @@
+import { enviarFormulario } from "./envio.js";
 import * as moduloFechaNacimiento from "./fechaNacimiento.js";
 import * as moduloRedirecciomientoWeb from "./redireccionamientoWeb.js";
 import { validaTipoCampo } from "./validaciones.js";
@@ -18,6 +19,5 @@ mensajes.forEach((campo) => {
     });
 });
 
+enviarFormulario();
 validarTecla();
-
-

@@ -278,28 +278,28 @@
                         <h2 class="contacto__titulo">Contacto</h2>
                         <span class="contacto__nota">¿Quieres contactarme?</span>
                         <span class="contacto__nota">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible</span>
-                        <form class="contacto__formulario">
+                        <form class="contacto__formulario" id="formulario">
                             <div class="contacto__campo">
-                                <input type="text" placeholder="Nombre(s) y Apellido" id="nombre" required class="contacto__nombre" data-tipo="nombre" pattern="^(([A-ZÑ]{1}[a-zñ]{2,}[ ]{1})([A-ZÑ]{1}[a-zñ]{2,}[ ]{1})?([A-ZÑ]{1}[a-zñ]{2,}))$">
+                                <input type="text" placeholder="Nombre(s) y Apellido" name="nombre" id="nombre" required class="contacto__nombre" data-tipo="nombre" pattern="^(([A-ZÑ]{1}[a-zñ]{2,}[ ]{1})([A-ZÑ]{1}[a-zñ]{2,}[ ]{1})?([A-ZÑ]{1}[a-zñ]{2,}))$" maxlength="50">
                                 <label for="nombre" class="contacto__texto--nombre">Nombre</label>
-                                <span class="contacto__error--campo">No debe escribir número u caracteres especiales</span>
+                                <span class="contacto__error--campo" id="errorNombre">No hay error</span>
                             </div>
                             <div class="contacto__campo">
-                                <input type="email" placeholder="nombreUsuario@servidor.dominio" id="email" required class="contacto__email" data-tipo="email" pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}">
+                                <input type="email" placeholder="nombreUsuario@servidor.dominio" name="email" id="email" required class="contacto__email" data-tipo="email" pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}">
                                 <label for="email" class="contacto__texto--email">E-mail</label>
-                                <span class="contacto__error--campo">No hay error</span>
+                                <span class="contacto__error--campo" id="errorEmail">No hay error</span>
                             </div>
                             <div class="contacto__campo">
-                                <input type="text" placeholder="Asunto" id="asunto" required class="contacto__asunto" data-tipo="asunto">
+                                <input type="text" placeholder="Asunto" id="asunto" required name="asunto" class="contacto__asunto" data-tipo="asunto" maxlength="50">
                                 <label for="asunto" class="contacto__texto--asunto">Asunto</label>
-                                <span class="contacto__error--campo">No hay error</span>
+                                <span class="contacto__error--campo" id="errorAsunto">No hay error</span>
                             </div>
                             <div class="contacto__campo">
-                                <textarea name="mensaje" cols="30" rows="10" placeholder="Mensaje" id="mensaje" required class="contacto__mensaje" data-tipo="mensaje"></textarea>
+                                <textarea name="mensaje" cols="30" rows="10" placeholder="Mensaje" name="mensaje" id="mensaje" required class="contacto__mensaje" data-tipo="mensaje" maxlength="300"></textarea>
                                 <label for="mensaje" class="contacto__texto--mensaje">Mensaje</label>
-                                <span class="contacto__error--campo">No hay error</span>
+                                <span class="contacto__error--campo" id="errorMensaje">No hay error</span>
                             </div>
-                            <input type="submit" value="Enviar mensaje" class="contacto__envio">
+                            <input type="submit" value="Enviar mensaje" class="contacto__envio" id="envio">
                         </form>
                     </div>
                 </div>
