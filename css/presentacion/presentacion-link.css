@@ -24,6 +24,7 @@
 
 @media screen and (min-width: 922px){
     .presentacion__link{
+        cursor: pointer;
         line-height: 1.6rem;
     }
 }

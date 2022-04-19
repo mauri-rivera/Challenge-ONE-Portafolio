@@ -1,4 +1,10 @@
-.contacto__informacion{
+.contacto__informacion .contacto__campo{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto__informacion .contacto__error{
     box-sizing: border-box;
     display: flex;
     flex-direction: column;

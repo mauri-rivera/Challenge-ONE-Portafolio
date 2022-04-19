@@ -1,6 +1,6 @@
 .formacion__item{
     align-items: center;
-    background: var(--box-blanco);
+    background: var(--box-blanco-cinc);
     border-radius: .625rem;
     display: flex;
     grid-area: card-imagen;

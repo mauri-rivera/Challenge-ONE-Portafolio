@@ -66,6 +66,7 @@
         <link rel="stylesheet" href="css/contacto/contacto-bloque.css">
         <link rel="stylesheet" href="css/contacto/contacto-email.css">
         <link rel="stylesheet" href="css/contacto/contacto-envio.css">
+        <link rel="stylesheet" href="css/contacto/contacto-error.css">
         <link rel="stylesheet" href="css/contacto/contacto-formulario.css">
         <link rel="stylesheet" href="css/contacto/contacto-imagen.css">
         <link rel="stylesheet" href="css/contacto/contacto-informacion.css">
@@ -118,19 +119,19 @@
                 <div class="presentacion__bloque">
                     <div class="presentacion__informacion">
                         <h1 class="presentacion__titulo">Hola, mi nombre es Mauricio Rivera y estoy enfocado en el desarrollo web</h1>
-                        <p class="presentacion__parrafo">Soy un Ingeniero en Computación e Informática titulado en la Universidad Andrés Bello (UNAB) Chile, tengo 37 años, y actualmente estoy participando en el proyecto de Oracle ONE Alura Latam</p>
+                        <p class="presentacion__parrafo">Soy un Ingeniero en Computación e Informática titulado en la Universidad Andrés Bello (UNAB) Chile, tengo <span class="edad"></span> años, y actualmente estoy participando en el proyecto de Oracle ONE Alura Latam</p>
                         <div>
                             <ul>
                                 <li class="presentacion__item">
-                                    <a class="presentacion__link" href="https://github.com/mauri-rivera">GitHub</a>
+                                    <a class="presentacion__link" id="gitHub">GitHub</a>
                                     <img src="imagenes/arrow_back_black_24dp 1.png">
                                 </li>
                                 <li class="presentacion__item">
-                                    <a class="presentacion__link" href="https://www.linkedin.com/in/mauricio-rivera-torres">LinkedIn</a>
+                                    <a class="presentacion__link" id="linkedIn">LinkedIn</a>
                                     <img src="imagenes/arrow_back_black_24dp 1.png">
                                 </li>
                                 <li class="presentacion__item">
-                                    <a class="presentacion__link" href="#">Curriculum Vitae</a>
+                                    <a class="presentacion__link" id="curriculumVitae">Curriculum Vitae</a>
                                     <img src="imagenes/arrow_back_black_24dp 1.png">
                                 </li>
                             </ul>
@@ -229,7 +230,7 @@
                         </div>
                         <div class="formacion__card">
                             <div class="formacion__item">
-                                <img src="imagenes/alura.png" alt="Oracle ONE" class="formacion__imagen">
+                                <img src="imagenes/alura.webp" alt="Oracle ONE" class="formacion__imagen">
                             </div>
                             <div class="formacion__nota">
                                 <span class="formacion__nombre">Programa Oracle ONE</span>
@@ -249,8 +250,8 @@
                             <span class="experiencia__nota">Challenge ONE Encriptador/Desencriptador</span>
                             <ul>
                                 <li class="experiencia__item">
-                                    <button class="experiencia__repositorio" onclick="window.open('https://github.com/mauri-rivera/Challenge-ONE-Encriptador-Desencriptador', '_blank');">Repositorio</button>
-                                    <button class="experiencia__demo" onclick="window.open('https://mauri-rivera.github.io/Challenge-ONE-Encriptador-Desencriptador', '_blank');">Ver demo</button>
+                                    <button class="experiencia__repositorio" id="repositorioUno">Repositorio</button>
+                                    <button class="experiencia__demo" id="demoUno">Ver demo</button>
                                 </li>
                             </ul>
                         </div>
@@ -262,8 +263,8 @@
                             <span class="experiencia__nota">Challenge ONE Juego del Ahorcado</span>
                             <ul>
                                 <li class="experiencia__item">
-                                    <button class="experiencia__repositorio" onclick="window.open('https://github.com/mauri-rivera/Challenge-ONE-Juego-del-Ahorcado', '_blank');">Repositorio</button>
-                                    <button class="experiencia__demo" onclick="window.open('https://mauri-rivera.github.io/Challenge-ONE-Juego-del-Ahorcado', '_blank');">Ver demo</button>
+                                    <button class="experiencia__repositorio" id="repositorioDos">Repositorio</button>
+                                    <button class="experiencia__demo" id="demoDos">Ver demo</button>
                                 </li>
                             </ul>
                         </div>
@@ -278,14 +279,26 @@
                         <span class="contacto__nota">¿Quieres contactarme?</span>
                         <span class="contacto__nota">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible</span>
                         <form class="contacto__formulario">
-                            <input type="text" placeholder="Nombre" id="nombre" required class="contacto__nombre" minlength="3">
-                            <label for="nombre" class="contacto__texto--nombre">Nombre</label>
-                            <input type="email" placeholder="E-mail" id="email" required class="contacto__email">
-                            <label for="email" class="contacto__texto--email">E-mail</label>
-                            <input type="text" placeholder="Asunto" id="asunto" required class="contacto__asunto">
-                            <label for="asunto" class="contacto__texto--asunto">Asunto</label>
-                            <textarea name="mensaje" cols="30" rows="10" placeholder="Mensaje" id="mensaje" required class="contacto__mensaje"></textarea>
-                            <label for="mensaje" class="contacto__texto--mensaje">Mensaje</label>
+                            <div class="contacto__campo">
+                                <input type="text" placeholder="Nombre(s) y Apellido" id="nombre" required class="contacto__nombre" data-tipo="nombre" pattern="^(([A-ZÑ]{1}[a-zñ]{2,}[ ]{1})([A-ZÑ]{1}[a-zñ]{2,}[ ]{1})?([A-ZÑ]{1}[a-zñ]{2,}))$">
+                                <label for="nombre" class="contacto__texto--nombre">Nombre</label>
+                                <span class="contacto__error--campo">No debe escribir número u caracteres especiales</span>
+                            </div>
+                            <div class="contacto__campo">
+                                <input type="email" placeholder="nombreUsuario@servidor.dominio" id="email" required class="contacto__email" data-tipo="email" pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}">
+                                <label for="email" class="contacto__texto--email">E-mail</label>
+                                <span class="contacto__error--campo">No hay error</span>
+                            </div>
+                            <div class="contacto__campo">
+                                <input type="text" placeholder="Asunto" id="asunto" required class="contacto__asunto" data-tipo="asunto">
+                                <label for="asunto" class="contacto__texto--asunto">Asunto</label>
+                                <span class="contacto__error--campo">No hay error</span>
+                            </div>
+                            <div class="contacto__campo">
+                                <textarea name="mensaje" cols="30" rows="10" placeholder="Mensaje" id="mensaje" required class="contacto__mensaje" data-tipo="mensaje"></textarea>
+                                <label for="mensaje" class="contacto__texto--mensaje">Mensaje</label>
+                                <span class="contacto__error--campo">No hay error</span>
+                            </div>
                             <input type="submit" value="Enviar mensaje" class="contacto__envio">
                         </form>
                     </div>
@@ -297,5 +310,7 @@
             <span class="rodapie__texto">Desarrollado por Mauricio Rivera</span>
             <span class="rodapie__texto">2022</span>
         </footer>
+
+        <script src="./javascript/app.js" type="module"></script>
     </body>
 </html>

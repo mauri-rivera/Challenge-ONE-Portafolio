@@ -3,7 +3,7 @@
 .contacto__texto--mensaje,
 .contacto__texto--nombre
 {
-    color: var(--sombra-suave);
+    color: var(--sombra-letra);
     font-size: 1rem;
     font-weight: 400;
     left: .75rem; 
@@ -14,15 +14,15 @@
 }
 
 .contacto__texto--asunto{
-    top: 14.225rem
+    top: 14.725rem;
 }
 
 .contacto__texto--email{
-    top: 7.875rem;
+    top: 8.125rem;
 }
 
 .contacto__texto--mensaje{
-    top: 20.575rem
+   top: 21.325rem;
 }
 
 .contacto__texto--nombre{

@@ -1,0 +1,26 @@
+.contacto__error--campo{
+    color: transparent;
+    font-size: .75rem;
+    font-weight: bold;
+    margin: .5rem 0 1rem .75rem;
+}
+
+.contacto__error .contacto__asunto,
+.contacto__error .contacto__email,
+.contacto__error .contacto__mensaje,
+.contacto__error .contacto__nombre{
+    border-bottom: 2px solid var(--color-error);
+}
+
+.contacto__error .contacto__texto--asunto,
+.contacto__error .contacto__texto--email,
+.contacto__error .contacto__texto--mensaje,
+.contacto__error .contacto__texto--nombre,
+.contacto__error .contacto__error--campo{
+    color: var(--color-error);
+}
+
+.contacto__error .contacto__error--campo{
+    margin: .5rem 0 1rem .75rem;
+}
+

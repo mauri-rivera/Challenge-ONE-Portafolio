@@ -1,6 +1,6 @@
 .hobby__item{
     align-items: flex-start;
-    background-color: var(--box-blanco);
+    background-color: var(--box-blanco-cinc);
     border-radius: .625rem;
     display: inline-flex;
     flex-direction: column;

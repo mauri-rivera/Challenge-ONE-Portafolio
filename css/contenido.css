@@ -1,15 +1,20 @@
 :root{
     --raleway: 'Raleway', sans-serif;
 
+    --background-blanco-suave: #FFFFFF;
+    --background-blanco-cinc: #FAFBFD;
+    --background-blanco-perla: #EAE6CA;
+    --background-caqui: #E0D8B0;
     --background-celeste-suave: #EAF2FD;
     --background-plateado-suave: #F5F5F5;
-    --background-blanco-suave: #FFFFFF;
-    --box-blanco: #FFFFFF;
 
-    --azul-suave: #15273e;
-    --color-oscuro: #464646;
-    --marron-suave: #655027;
+    --azul-suave: #15273E;
+    --box-blanco-cinc: #FAFBFD;
+    --color-error: #5D0B0B;
+    --color-oscuro: #282525;
+    --marron-suave: #4F3D1A;
     --plateado-suave: #F5F5F5;
+    --sombra-letra: #555252;
     --sombra-suave: #ACA4A4;
 }
 
@@ -21,7 +26,9 @@ html{
     scroll-behavior: smooth;
 }
 
-
+.edad{
+    display: contents;
+}
 
 
 
